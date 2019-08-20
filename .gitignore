@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Bot important files
+
+.config.py
+config.py
+*config.py
