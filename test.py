@@ -1,37 +1,41 @@
 import config
-from time import sleep
-from random import randint, shuffle
+from random import randint
 from os import listdir
 
-hours = randint(7200, 14400) # tempo aleatório
-config.locale # local onde estão salvos os arquivos
-listing = listdir(config.locale)
-
 def randomPic(path):
+    listing = listdir(config.locale)
     size = len(listing)
     if size > 0:
-        randpic = randint(0, size)
-        archive = listing[randpic]
-        listing.pop(randpic)
+
+        while True:
+            pos = (randint(0, size))
+            kuni = listing[pos]
+            while True:
+                continue_input = input(f'Posso tweetar a foto {kuni}? ').upper()[0]
+                if continue_input in 'SN':
+                    break
+                print('Opção inválida! ')
+            if continue_input == 'S':
+                break
+        listing.pop(pos)
+
     else:
-        print('I already tweeted everything...')
-    pic = path + archive
-    return pic
+        print('Lista está vazia.')
+        
+    return path + kuni
 
-picture = randomPic(config.locale)
-
-def tweeting(picture):
-    photo = open(picture, 'rb')
+def tweeting(kuni):
+    photo = open(kuni, 'rb')
     tweet = config.twitter.upload_media(media=photo)
     config.twitter.update_status(status='', media_ids=[tweet['media_id']])
-    sleep(hours)
 
-def loop(picture):
-    while True:
-        try:
-            tweeting(picture)
-        except Exception as error:
-            print(f'We have an actual error here... {error}')
-            break
+picture = randomPic(config.locale) # arquivo colocado em uma variável
+hours = randint(900, 14000) # intervalo de tempo dos tweets
 
-loop(picture)
+while True:
+    try:
+        tweeting(picture)
+        sleep(hours)
+    except Exception as e:
+        print(f'Erro: {e}')
+        break
