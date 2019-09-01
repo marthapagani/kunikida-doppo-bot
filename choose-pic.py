@@ -1,6 +1,8 @@
 import config
+import secToHour
 from random import randint
 from os import listdir
+from time import sleep
 
 def randomPic(path):
     listing = listdir(config.locale)
@@ -31,6 +33,7 @@ def tweeting(kuni):
 
 picture = randomPic(config.locale) # arquivo colocado em uma variável
 hours = randint(900, 14000) # intervalo de tempo dos tweets
+formated_hours = secToHour.timeConverter(hours)
 
 while True:
     try:
@@ -39,3 +42,5 @@ while True:
     except Exception as e:
         print(f'Erro: {e}')
         break
+    else:
+        print(f'Tweetado com sucesso. Próximo tweet em {formated_hours}')
