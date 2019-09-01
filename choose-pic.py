@@ -38,9 +38,8 @@ formated_hours = secToHour.timeConverter(hours)
 while True:
     try:
         tweeting(picture)
+        print(f'Tweetado com sucesso. Próximo tweet em {formated_hours}')
         sleep(hours)
     except Exception as e:
         print(f'Erro: {e}')
         break
-    else:
-        print(f'Tweetado com sucesso. Próximo tweet em {formated_hours}')
