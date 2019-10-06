@@ -10,9 +10,9 @@ Tweeting automatically Bungou Stray Dogs' Kunikida Doppo pictures in a random am
 
 From all official media: manga, preludes, anime, stage play, game. If I ever repost fanart please tell me and drag me.
 
-Anime and manga screenshoots: Some are my own, others are from [bungoustrayshots on Weebly](https://bungoustrayshots.weebly.com/), [bsd-bibliophile on Tumblr](https://bsd-bibliophile.tumblr.com/tagged/kunikida-doppo), [awkwardbsd on Tumblr](https://awkwardbsd.tumblr.com/tagged/kunikida-doppo), [ichiyo-higuchi on Tumblr](https://ichiyo-higuchi.tumblr.com/tagged/bsda), [bsdanthology on Tumblr](https://bsdanthology.tumblr.com/), [dazaiscans on Tumblr](https://dazaiscans.tumblr.com/).]
+Anime and manga screenshoots: Some are my own, others are from [bungoustrayshots on Weebly](https://bungoustrayshots.weebly.com/), [bsd-bibliophile on Tumblr](https://bsd-bibliophile.tumblr.com/tagged/kunikida-doppo), [awkwardbsd on Tumblr](https://awkwardbsd.tumblr.com/tagged/kunikida-doppo), [ichiyo-higuchi on Tumblr](https://ichiyo-higuchi.tumblr.com/tagged/bsda), [bsdanthology on Tumblr](https://bsdanthology.tumblr.com/), [dazaiscans on Tumblr](https://dazaiscans.tumblr.com/).
 
-Official art: (https://twitter.com/artbooksNat)[Artbooks by Nat], (https://aminoapps.com/c/bungou-stray-dogs-bsd/page/item/bsd-official-art/7zbn_YVCNI4P0JR6m7Br2NkPGYq7QoZqLz)[Gallery of Official Art on BSD Amino]
+Official art: [Artbooks by Nat](https://twitter.com/artbooksNat), [Gallery of Official Art on BSD Amino](https://aminoapps.com/c/bungou-stray-dogs-bsd/page/item/bsd-official-art/7zbn_YVCNI4P0JR6m7Br2NkPGYq7QoZqLz)
 
 Game images: [Bungou Stray Dogs Mayoi wiki](https://bungomayoi.fandom.com/wiki/Main)
 
