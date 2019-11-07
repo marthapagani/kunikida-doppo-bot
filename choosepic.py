@@ -1,17 +1,17 @@
 import config
-from random import randint
+from random import sample
 from os import listdir
 from time import sleep
 
 def randomPic(path):
     while True:
-        pic = randint(1, len(listdir(path)))
-        option = input(f'Tweetar foto {pic}? [S/N] ').upper()[0]
+        choose = sample(range(len(listdir(path))), 1)
+        option = input(f'Tweetar foto {choose}? [S/N] ').upper()[0]
         if option not in 'SN':
             print('Opção inválida! ')
         if option in 'S':
             break
-    pic = path + str(pic) + '.png'
+    pic = path + str(choose[0]) + '.png'
     return pic
     
 def tweetPic(pic):

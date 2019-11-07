@@ -1,10 +1,10 @@
 import config
-from random import randint
+from random import sample
 from os import listdir
 
 def randomPic(path):
-    pic = randint(1, len(listdir(path)))
-    pic = path + str(pic) + '.png'
+    choose = sample(range(len(listdir(path))), 1)
+    pic = path + str(choose[0]) + '.png'
     return pic
     
 def tweetPic(pic):
